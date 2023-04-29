@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 16.03.2022 22:24:23
-// Design Name: 
-// Module Name: comp_16bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module comp_16bit( //16bit comparator using 4 4bit comparators that gives 3 boolean values to tell if the numbers are equal or which one is greater
     input wire [15:0] a, b,
