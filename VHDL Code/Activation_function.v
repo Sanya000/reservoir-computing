@@ -5,7 +5,6 @@ module Activation_function(//3piecewise linear approximation of the tanh functio
 	output wire [15:0] f
 );
 
-
 assign f = func_tanh(x);
 
 function [15: 0] func_tanh(input [16:0] x_in_func);
